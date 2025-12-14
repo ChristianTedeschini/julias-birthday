@@ -1,2 +1,5 @@
 # julias-birthday
-A website I created with my group of friends to celebrate the birthday of our dear friend Julia Gomes.
+This website was a collaborative effort to celebrate Julia's 23rd birthday. It features contributions from:
+- [Christian Tedeschini](https://github.com/ChristianTedeschini) (design, concepts and programming);
+- [Mayra Ribeiro](https://www.instagram.com/_may_ribeiro_) (writing, concepts and general editing);
+- [Giovanna da Silva](https://www.instagram.com/giida_silva) (also writing, concepts and general editing).
