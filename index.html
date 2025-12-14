@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Julia Gomes</title>
+  <link rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./main.js" defer></script>
+</head>
+<body>
+  <div class="container max-w-5xl mx-auto">
+    <header>
+      <a href="./index.html">
+        <img class="mx-auto" src="./assets/images/logo.png" alt="Julia Gomes Logo">
+      </a>
+    </header>
+
+    <div class="grid grid-cols-10">
+      <section class="col-span-3 p-6 sitemap-widget">
+        <img class="mx-auto" src="./assets/images/titles/sitemap.png" alt="Sitemap">
+
+        <ul class="menu">
+          <li>
+            <a class="underline underline-offset-3" href="./sobre.html"><img src="./assets/images/icons/star.svg"> sobre</a>
+          </li>
+          <li>
+            <a class="underline underline-offset-3" href="./noticias.html"><img src="./assets/images/icons/star.svg"> notícias</a>
+          </li>
+          <li>
+            <a class="underline underline-offset-3" href="./filmes.html"><img src="./assets/images/icons/star.svg"> julia’s obessions</a>
+          </li>
+          <ul class="submenu">
+            <li><a href="./filmes.html">filmes</a></li>
+            <li><a href="./albuns.html">álbuns</a></li>
+            <li><a href="./series.html">séries</a></li>
+            <li><a href="./figurinhas.html">figurinhas do zap</a></li>
+          </ul>
+          <li>
+            <a class="underline underline-offset-3" href="./julias-bag.html"><img src="./assets/images/icons/star.svg"> what's in julia’s bag?</a>
+          </li>
+          <li>
+            <a class="underline underline-offset-3" href="./photobook.html"><img src="./assets/images/icons/star.svg"> photobook</a>
+          </li>
+          <li>
+            <a class="underline underline-offset-3" href="./wishlist.html"><img src="./assets/images/icons/star.svg"> wishlist</a>
+          </li>
+          <li>
+            <a class="underline underline-offset-3" href="./quiz.html"><img src="./assets/images/icons/star.svg"> quiz!</a>
+          </li>
+        </ul>
+      </section>
+      <section class="col-span-7 p-6 bio-widget">
+        <div class="flex gap-5 items-start">
+          <div>
+            <img class="mb-4" src="./assets/images/titles/bio.png" alt="Bio">
+            <p class="about-text">Jornalista, cinegrafista, cinéfila e uma das maiores divas pop do momento em todo o mundo. Ela gosta de conhecer lugares novos, se rodear de seus fãs, conhecer tudo que tem relação com cinema e aproveitar de um bom café enquanto fofoca. É a maior sáfica que temos e uma amiga para todas as horas.</p>
+
+            <div class="flex gap-4 characteristics mt-2">
+              <div class="flex gap-1">
+                <img src="./assets/images/icons/calendar.svg">
+                <p>12/12/2002</p>
+              </div>
+              <div class="flex gap-1">
+                <img src="./assets/images/icons/pin.svg">
+                <p>sanja city</p>
+              </div>
+              <div class="flex gap-1">
+                <img src="./assets/images/icons/sagittarius.svg">
+                <p>sagitariana</p>
+              </div>
+            </div>
+          </div>
+          <img class="max-w-60 mt-2" src="./assets/images/ju-nossa-diva.jpg" alt="Nossa Diva!!!">
+        </div>
+
+        <a class="baloon-ju" href="https://docs.google.com/document/d/1jENPGf4hUISowemZ_yJoQhV5lEMsBYRNXLOw0mgb5Us/edit?tab=t.0" target="_blank">
+          <img src="./assets/images/vaga-ficante.png">
+        </a>
+      </section>
+    </div>
+    <div class="grid grid-cols-14">
+      <section class="col-span-4 lastfm-widget">
+        <div id="verticalStuff">
+          <div id="main13">
+            <center>
+              <div class="main-flex">
+                <div id="widget" class="content">
+                  <h4 class="title" id="playState">julia’s last played song was...</h4>
+                </div>
+                <div class="content">
+                </div>
+              </div>
+            </center>
+          </div>
+        </div>
+      </section>
+      <section class="col-span-4 cbox-widget">
+        <h4 class="title text-center">what are the fans saying <br>about our diva?</h4>
+        <iframe src="https://www3.cbox.ws/box/?boxid=3550499&boxtag=E9dtaE" width="100%" height="340" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>	
+      </section>
+      <section class="col-span-6 p-6 noticias-widget">
+        <img class="mx-auto mb-4" src="./assets/images/titles/noticias-home.png" alt="e as últimas notícias sobre a diva">
+
+        <a class="flex mb-4 gap-3 noticia-block" href="noticias/apos-vencer-grammy.html">
+          <img class="max-w-20 max-h-20" src="./assets/images/noticias/grammy.png" alt="Grammy">
+          <p>
+            Após vencer Grammy, Julia Gomes anuncia turnê do álbum "Entretenimento"
+          </p>
+        </a>
+
+        <a class="flex mb-4 gap-3 noticia-block" href="noticias/lacre.html">
+          <img class="max-w-20 max-h-20" src="./assets/images/noticias/safica.png" alt="Julia dissociando">
+          <p>
+            Lacre! Perspectivas sobre a contribuição de Julia Gomes para a cultura sáfica de SJC
+          </p>
+        </a>
+
+        <p class="text-center more-news">
+          para ler mais notícias sobre a diva, <a class="underline" href="./noticias.html">clique aqui!!!</a>
+        </p>
+      </section>
+    </div>
+
+    <footer>
+      <p>criado com muito carinho pelos seus friends: chris, gi e may.</p>
+    </footer>
+  </div>
+</body>
+</html>
