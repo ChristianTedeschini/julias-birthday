@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'DK Longreach';
-  src: url('/assets/fonts/DK\ Longreach.otf');
+  src: url('./assets/fonts/DK\ Longreach.otf');
 }
 
 @font-face {
   font-family: 'LILIMING Regular';
-  src: url('/assets/fonts/LILIMING\ W00\ Regular.ttf');
+  src: url('./assets/fonts/LILIMING\ W00\ Regular.ttf');
 }
 
 @font-face {
   font-family: 'LILIMING Bold';
-  src: url('/assets/fonts/LILIMING\ W00\ Bold.ttf');
+  src: url('./assets/fonts/LILIMING\ W00\ Bold.ttf');
 }
 
 /* ------------------------------------------ */
 
 body {
-  background: url('/assets/images/background.png') center repeat;
+  background: url('./assets/images/background.png') center repeat;
   color: #FFFFFF;
   font-family: 'LILIMING Regular', sans-serif;
   height: 100vh;
