@@ -41,7 +41,7 @@ footer {
 }
 
 .paper-background {
-  background: url('/assets/images/paper-background.png') top center repeat;
+  background: url('./assets/images/paper-background.png') top center repeat;
 }
 
 h4 {
